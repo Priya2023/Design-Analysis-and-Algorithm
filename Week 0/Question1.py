@@ -13,10 +13,10 @@ def searchInArray(array, value):
 
 if __name__=="__main__":
     arr = []
-    n = int(input("Enter size : "))
+    n = int(input("Enter Element size : "))
     for i in range(0,n):
         arr.append(int(input("Enter element : ")))
 
-    num = int(input("Enter Element for Search : "))
+    num = int(input("Enter Element Search : "))
     print(searchInArray(arr, num))
 
